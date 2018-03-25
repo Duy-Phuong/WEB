@@ -1,0 +1,48 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+div.slide {
+	position: relative;
+	width: 900px;
+	height: 566px;
+
+	overflow: hidden;
+}
+
+img.anhnho {
+	width: 174px;
+
+}
+
+img.layer1 {
+	width: 900px;
+	height: 566px;
+
+	position: absolute;
+	left: 0px;
+	top: 0px;
+
+z-index: 1;
+/*luc nay anh nho dang nam duoi*/
+}
+
+div.layer2 {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+
+z-index: 2;
+
+background-color: black;
+color: white;
+padding: 5px;
+/* de do rong cho no dai nam tren 1 hang */
+width: 1500px; 
+}
+
+div.tren {
+	width: 900px;
+	/*chu k dk tranf ra*/
+}

@@ -1,0 +1,107 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+
+.menutren {
+	width: 100%;
+	height: 80px;
+	background-color: gray;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+	transition: 0.8s;
+}
+
+.cangiua {
+	width:  1000px;
+	margin: auto;
+}
+
+.trai {
+	width: 50%;
+
+	float: left;
+}
+
+.phai {
+	width: 50%;
+
+	float: left;
+	text-align: right: 
+}
+
+.mtrai ul li {
+	float: left;
+	list-style-type: none;
+}
+
+.mtrai ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+
+
+	display: block; /**/
+	padding:  15px 20px;
+	margin: 10px;
+	background-color: #2d3436;
+	color: white;
+}
+
+a.logo {
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	background-color: #dfe6e9;
+}
+
+.noidung .text{
+	width: 900px;
+	margin: auto;
+	line-height: 20px;
+}
+
+.anh {
+	height: 700px;
+	background-image: url('images/la2.jpg');
+	background-size: cover;
+	width: 100%;
+}
+
+.bienhinh {
+	background-color: #80808096;
+	height: 100px;
+}
+
+.xayzacap1 {
+	background-color: #81ecec;
+	transform: translateY(-100px);
+}
+
+.xayzacap2 {
+	background-color: #a29bfe;
+	transform: translateY(0px);
+}
+
+ .menutren1 {
+	width: 100%;
+	height: 80px;
+	background-color: gray;
+	
+
+
+	transition: 0.8s;
+}
+
+.duoi {
+	position: fixed;
+	top: 0px;
+	left: 0px
+}

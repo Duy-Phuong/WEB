@@ -1,0 +1,106 @@
+* {
+	padding: 0px;
+	margin:  0px;
+}
+
+a.khoi1 {
+	display: block;
+	width: 400px;
+	height: 300px;
+	/* 	background-color: black;
+ */
+	position: relative;
+/* hien len */
+	overflow: hidden;
+
+	float: left;
+
+}
+/* hinh k can absolute vi no mac dinh dau tien */
+a.khoi1 .layer1 {
+	width: 100%;
+	height: 300px;
+
+}
+
+a.khoi1 .layer2 {
+	/* span */
+	display: block;
+
+	width: 400px;
+	height: 300px;
+/* 	background-color: yellow;
+ */
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+
+	background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255, 235, 59, 0.57));
+
+		transition: 1s;
+
+
+}
+
+a.khoi1 .layer3 {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 458px;
+	height: 37px;
+	background-color: tomato;
+	padding: 5px 21px;
+	color: white;
+	font-size: 15px;
+ text-align: center;
+	z-index: 3;
+
+	transition: 1s;
+	opacity: 0;
+	bottom: -50px;
+}
+
+
+a.khoi1 .layer2:hover {
+	opacity: 0;
+}
+
+a.khoi1:hover .layer3{
+	/* chu de chu la nó nhay no k con hover nua */
+	bottom: 30px;
+	opacity: 1;
+}
+
+
+/*kho nho*/
+a.khoinho {
+	width: 200px;
+	height: 150px;
+	float: left;
+}
+
+a.khoinho .layer3 {
+	width: 200px;
+	height: 20px;
+	background-color: tomato;
+	padding: 5px 21px;
+	
+}
+
+a.khoinho .layer2 {
+	width: 200px;
+	height: 150px;
+		
+}
+a.khoinho .layer1{
+	width: 200px;
+		height: 150px;
+}
+
+
+div.to {
+	width: 860px;
+	background-color: powderblue;
+}

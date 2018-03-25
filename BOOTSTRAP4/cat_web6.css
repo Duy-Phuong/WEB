@@ -1,0 +1,63 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Karma', serif;
+
+}
+
+section {
+	margin: auto;
+	width: 600px;
+/* 	background-color: yellow;
+ */}
+
+div.title h3 {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: sans-serif;
+	border-bottom: 1px solid gray;
+	background-color: white;
+	margin-bottom: 15px;
+}
+
+/*tin to*/
+div.cha {
+/* 	background-color: green;
+ */	height: 200px;
+ border-bottom: 1px solid gray;
+ margin-bottom: 20px;
+ padding-bottom: 10px;
+}
+div.cha img {
+	width: 200px;
+	float: left;
+	height: auto;
+	margin-right: 15px;
+}
+
+div.cha a {
+text-decoration: none;
+display: block;
+padding-bottom: 10px 10px;
+}
+
+div.cha p {
+
+padding-bottom: 10px 10px;
+}
+div.cha div.cha1 {
+	margin-left: 15px;
+	 overflow: scroll; /*tự đông ử 1 bên*/
+	 height: 195px;
+
+}
+
+div.con img {
+
+	width: 100px;
+	
+}
+div.con {
+	height: 100px;
+	 margin-bottom: 20px;
+}

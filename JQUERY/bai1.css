@@ -1,0 +1,24 @@
+.dangnhap {
+	background-color: powderblue;
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	top: 200px;
+	left: 50%;
+	transform: translateX(-200px); /*dịch qua trái*/
+}
+
+.dangki {
+	background-color: green;
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	top: 200px;
+	left: 50%;
+	transform: translateX(-200px);
+}
+
+button {
+	margin-top: 100px;
+	margin-left: 50px;
+}

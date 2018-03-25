@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type = "text/javascript">
+		if (sessionStorage.hits) {
+			sessionStorage.hits = Number(sessionStorage.hits) + 1;
+		} else {
+			sessionStorage.hits = 1;
+		}
+	</script>
+	document.write("so hits: " + sessionStorage.hits);
+</head>
+<body>
+	<p>Refresh </p>
+	<p>close your window</p>
+</body>
+</html>

@@ -1,0 +1,34 @@
+article.kenh14 {
+    width: 800px;
+    height: 200px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+.kenh14 img {
+    width: 150px;
+    height: 120px;
+    float: left;
+    margin-right: 10px;
+}
+a.danhmuc{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 3px 18px;
+	border: 1px solid black;
+
+}
+
+a.danhmuc:hover {
+    color: white;
+    background-color: black;
+}
+a.tieude {
+    text-decoration: none;
+    display: block; /*xuong dong*/
+    line-height: 33px;
+}
+div.cangiua{
+	width: 850px;
+	margin: auto;
+}

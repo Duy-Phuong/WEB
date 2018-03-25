@@ -1,0 +1,50 @@
+body {
+	font-family: 'Lora', serif;
+}
+
+.menu {
+	padding: 0px !important;
+}
+.top {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.gray {
+	background-color: #dbdbdb;
+}
+
+.nhat {
+	background-color: #f4f4f4;
+	color: black;
+}
+
+.picture {
+	width: 100%;
+	border-radius: 50%;
+	border: 2px solid gray;
+	
+}
+
+.thongtin {
+	border-radius: 5px;
+	border: 1px solid brown;
+	color: brown;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	padding-top: 8px; 
+}
+
+.thongtin1 {
+	border-radius: 5px;
+	border: 1px solid brown;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	padding-top: 8px; 
+	background-color: brown;
+	color: white;
+}
+
+.foot {
+	background-color: gray;
+	color: white;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+/*co the thay a = div
+*/		#a{
+			height: 100px;
+			width: 100px;
+			background-color: yellow;
+			transition: width 2s, height 4s;
+		}
+		#a:hover{
+			width: 300px;
+			height: 300px;
+		}
+
+
+		/* The animation code */
+/*@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* The element to apply the animation to 
+div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}*/
+
+
+
+/* The element to apply the animation to */
+/*div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+/* The animation code 
+@keyframes example {
+    0%   {background-color:red;}
+    25%  {background-color:yellow; }
+    50%  {background-color:blue; }
+    /*75%  {background-color:green; }
+    100% {background-color:red; }
+}*/
+/*đặt dấu ; đúng chỗ ms chạy dk
+*/		#b{
+			height: 100px;
+			width: 100px;
+			background-color: red;
+			float: right;
+
+			animation-name: example;
+			animation-duration: 4s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes example {
+			0% {background-color:red;}
+			25% {background-color:yellow;}
+			50% {background-color:green;}
+			100% {background-color:orange;}
+
+
+		}
+	</style>
+
+</head>
+<body>
+	 <div id = "a">Transitions</div> 
+	<div id = "b"></div>
+
+</body>
+</html>

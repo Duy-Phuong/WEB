@@ -1,0 +1,39 @@
+. {
+	padding: 0px;
+	margin: 0px;
+}
+
+.content {
+	width: 90%;
+	margin: auto;
+	margin-top: 100px;
+	float: left;
+	background-color: powderblue;
+	
+}
+
+ul li {
+	float: left;
+	width: 25%;
+	
+	list-style-type: none;
+}
+
+img {
+	width: 100%;
+	background-size: cover;
+	height: 100%;
+}
+
+header {
+	background-color: yellow;
+	float: left;
+	width: 100%
+}
+
+a {
+	display: block;
+	padding: 10px;
+	background-color: powderblue;
+	margin:  10px;
+}

@@ -1,0 +1,41 @@
+._khoi1 .tren img{
+	width: 300px;
+	height: 300px;
+}
+
+._khoi1 {
+    float: left;
+    margin: 15px;
+    background-color: white;
+}
+
+
+.cangiua {
+    width: 500;
+    width: 676px;
+
+    margin: auto;
+}
+.duoi {
+    text-align: center;
+}
+
+.duoi .chinh {
+    font-size: large;
+    font-weight: bold;
+}
+body{
+	background-color: gray;
+}
+.tren{
+	position: relative; /*QT*/
+}
+.tren:hover .mauvang{
+	background-color: yellow;
+	position: absolute;
+	top: 0px;
+	width: 300px;
+	height: 300px;
+	opacity: 0.4;
+	transition: all ease 0.5s; /**hiện lên từ từ*/
+}

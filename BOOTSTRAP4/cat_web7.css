@@ -1,0 +1,45 @@
+.tinanh a{
+	background-color: black;
+	padding:  10px 10px;
+	color: white;
+	width:  280px;
+	display: block; /**/
+	position: absolute;
+	bottom: 4px;
+	right: 0px;
+	opacity: 0.5;
+}
+
+img{
+	width: 300px;
+
+	
+}
+.tinanh {
+	width: 300px;
+	position: relative;
+}
+
+/**flex box*/
+div.to {
+	width:  900px;
+	margin:  auto;
+	background-color: powderblue;
+
+		/**flex: bố**/
+display: flex;
+}
+
+div.khoi1 {
+
+}
+
+.k {
+	border-radius: 5px;
+	background-color: brown;
+	color: white;
+	padding: 10px;
+	margin: 5px;
+
+
+}

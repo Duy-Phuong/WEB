@@ -1,0 +1,64 @@
+div.first img{
+	float: right;
+	margin-right: 15px;
+	margin-left: 37px;
+	clear: both;
+}
+div.first {
+	clear: both;
+	padding-top: 20px;
+}
+
+div{
+	margin: 10px;
+}
+/*chung*/
+
+a{
+	text-decoration: none;
+
+}
+a:hover{
+	color: orange;
+}
+/*các phần con*/
+article.sub{
+	width: 230px;
+	float: left;
+	margin: 10px;
+}
+/** tiêu đè*/
+article#arr img{
+	/* width: 500px; */
+	float: left;
+	width: 200px;
+/* 	height: 200px; */
+	    margin: 20px 20px;
+
+}
+
+
+
+article#arr{
+	/* overflow: hidden; */
+	float: left;
+	background-color: yellow;
+	border: 1px solid orange;
+
+}
+
+section{
+	width: 500px;
+	height: 200px;
+
+}
+/*để cho nó nằm sang hết 1 bên*/
+div.subarr{
+	overflow: hidden;
+}
+
+/* font */
+*{
+	font-family: Karma;
+	
+}

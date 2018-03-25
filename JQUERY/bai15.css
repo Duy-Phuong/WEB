@@ -1,0 +1,33 @@
+* {
+	padding:0px;
+    margin:0px;
+}
+
+.noidung {
+	background-color: powderblue;
+	padding:  100px 0px;
+	width: 100%;
+	
+}
+
+.cangiua {
+	width: 900px;
+	margin: auto;
+}
+
+.anh {
+    width: 32%;
+    float: left;
+    margin: 6px;
+}
+
+.anh:nth-child(3n+3) {
+    margin: 6px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.text {
+	clear:  both;
+	background-color: white;
+}

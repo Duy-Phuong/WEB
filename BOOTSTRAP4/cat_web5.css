@@ -1,0 +1,84 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.aocuoi{
+	width: 400px;
+	padding-top: 13px;
+	border-top: 1px solid gray;
+	margin:  auto;
+	margin-top: 100px; /*ở dưới sẽ ghi đè lên*/
+}
+.aocuoi a.td{
+	float: right;
+	display: block; /**/
+	background-color: yellow;
+	margin-top: -20px; /*đẩy xem thêm lên cao lại*/
+}
+
+.aocuoi a.tr{
+	text-align: center;
+	display: block;
+	/* background-image: url(''); thêm hình phía dứoi */
+	/* background-repeat: no-repeat */
+	/* background-position: center;
+	padding-top: 100px;
+ */
+}
+
+.tren{
+	color: powderblue;
+	border-left: 3px solid powderblue;
+	padding-left: 15px;
+	font-weight: bold;
+	font-size: 40px;
+	
+	
+}
+
+.tren a {
+	color: powderblue;
+	font-weight: bold;
+	font-size: 40px;
+	
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+div.trai {
+	background-color: yellow;
+	width: 350px;
+	float: left;
+}
+div.trai img{
+	
+	width: 100%;
+}
+div.trai a.td{
+	padding-left: 10px;
+	display: block; /*tranh th chỉ đẩy dòng đầu*/
+}
+
+div.phai{
+	width:  445px;
+	float: left;
+	background-color: green;
+}
+div.phai div.first{
+	width: 200px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	background-color: powderblue;
+	float: left;
+}
+
+div.phai div.first img {
+	width: 100%;
+}
+
+div.duoi{
+	width: 800px;
+}
+
+/* chỉnh div duoi có đô rộng bằng 3 oo con nhân 3cho nó nằm ở dưới */

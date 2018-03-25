@@ -1,0 +1,83 @@
+* {
+	padding:0px;
+    margin:0px;
+}
+
+a {
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+
+	display: block;
+	margin-top: 10px;
+
+	padding: 10px;
+	background-color: #dfe6e9;
+}
+
+.giaodien {
+	width:  550px;
+	margin: auto;
+
+	
+}
+
+img {
+	width:  100%;
+}
+
+.khoi {
+	width: 250px;
+	float: left;
+	margin-right: 10px;
+
+	/* opacity: 0; */
+}
+
+.noidung {
+	width: 550px;
+	margin: auto;
+}
+
+.hienra .khoi{
+	animation: hienra1 1s forwards;
+}
+
+
+@-webkit-keyframes hienra1 {
+	0% {opacity: 0;
+		transform: translateY(300px);}
+	100% {opacity: 1;
+		transform: translateY(0px);}
+}
+
+
+/* .hienra .khoi:nth-child(1){
+	animation-delay: 0.1s;
+}
+
+.hienra .khoi:nth-child(2){
+	animation-delay: 0.2s;
+}
+
+.hienra .khoi:nth-child(3){
+	animation-delay: 0.3s;
+}
+
+.hienra .khoi:nth-child(4){
+	animation-delay: 0.4s;
+}
+
+.hienra .khoi:nth-child(5){
+	animation-delay: 0.5s;
+}
+
+.hienra .khoi:nth-child(6){
+	animation-delay: 0.6s;
+}
+
+.hienra .khoi:nth-child(7){
+	animation-delay: 0.7s;
+}
+ */

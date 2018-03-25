@@ -1,0 +1,39 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.tren {
+	position: relative;
+	width: 340px;
+	height: 250px;
+	background-color: green;
+}
+
+/* anh k can lm gi het */
+img.layer1 {
+	width: 100%;
+		height: 250px;
+}
+
+div.tren .layer2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+z-index: 1;
+
+	background-color: powderblue;
+	padding: 15px; 
+}
+
+div.tren .layer3 {
+	position: absolute;
+	left: 0px;
+	bottom: -15px;
+z-index: 2;
+
+	background-color: powderblue;
+	padding: 15px;
+
+	transform: rotate(45deg); 
+}

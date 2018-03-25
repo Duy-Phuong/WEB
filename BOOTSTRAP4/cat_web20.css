@@ -1,0 +1,88 @@
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+/*khi keó thả vẫn full ha
+nếu k có head, body nó chỉ hiện đủ khúc chứa nó
+*/
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+div.top {
+	width: 100%;
+	height: 100%;
+	background-image: url('images/la.jpg');
+	background-size: cover;
+	
+}
+
+.menutren {
+	background-color: transparent !important;
+	border-bottom: 1px solid gray;
+
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: red !important;
+}
+
+.noidung {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+/* 	color: white; move down
+	padding-top: -38px; */
+}
+
+
+a.logo {
+	color: tomato !important;
+	position: relative;
+	top: 3px;
+	left: 20px;
+	background: white;
+	padding: 12px 18px;
+	border-radius: 5px;
+	margin-bottom:  5px;
+}
+
+ul.navbar-nav.menutrenphai a.nav-link{
+text-transform: uppercase;
+padding: 12px 18px;
+transition: 1s;
+}
+
+ul.navbar-nav.menutrenphai a.nav-link:hover{
+color: white;
+transition: 1s;
+}
+
+
+@media (max-width:576px) {
+	* {
+
+	}
+	.noidung {
+		color: white;
+			top: 32%;
+			left: 0%;
+	}
+
+	a.logo {
+	background:yellow;
+	margin-left: 100px;
+	}
+	ul.menutrenphai {
+		background-color: powderblue;
+		text-align: center;
+		width: 100%;
+		padding: 10px;
+	}
+
+	ul.navbar-nav.menutrenphai a.nav-link{ 
+		padding: 10px;
+	}
+}

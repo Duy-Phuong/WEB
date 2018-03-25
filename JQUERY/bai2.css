@@ -1,0 +1,44 @@
+* {
+	padding: 0px;
+	margin:  0px;
+}
+
+body {
+	background-color: powderblue;
+
+}
+
+.container {
+	text-align: center;
+}
+
+.hieuung {
+	width: 500px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.motkhoi h3{
+	background-color: #74b9ff;
+	color: white;
+	padding: 20px 30px;
+	text-align: center;
+}
+
+.nd1khoi {
+	background-color: #a29bfe;
+	border: 1px solid orange;
+	padding: 20px;
+
+	/*  display: none; */
+}
+
+h3.xanh:hover {
+	background-color: lightblue;
+}
+
+h3.xanh {
+	background-color: orange;
+}
+
+/* xoay ảnh 180 */

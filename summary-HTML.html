@@ -1,0 +1,204 @@
+
+
+<img src="img_girl.jpg" width="500" height="600">: nghĩa là: 500px
+
+<html lang="en-US">
+
+<p title="I'm a tooltip">
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Small text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+<q>Build a future .</q>: short quote
+<blockquote cite="http://www.worldwildlife.org/who/index.html">aa</blockqute>
+
+<abbr title="World Health Organization">WHO</abbr>
+
+có 3 cách nhúng css vào trang html
+
+<img src="html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+khuyến khích cách này k sẽ bị ghi đè
+có map khi ấn vào 1 chỗ cụ thể nhay tới hình khác
+
+<body style="background-image:url('clouds.jpg')">
+<picture>: thẻ mới 1 hình mỗi size min</picture>
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; //solid là 2 sọc, kết hợp 2 cái này mới có 1 đường collapse nằm trong thẻ table thôi
+}
+
+table#t01 tr:nth-child(even):  ô chẵn
+
+phần list: có 1 cái menu bar: 
+li a {
+    display: block;} 
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+ấn vào 1 button hide: 
+<script>
+function myFunction() {
+  var x = document.getElementsByClassName("city");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById('demo').innerHTML = Date(); //lấy data trong js
+  document.getElementById("image").src = "picture.gif";// thay đổi thuộc tính
+}
+</script>
+
+<h2 class="city main">London</h2>: 2 class 
+
+iframe : display a web inside a web
+thẻ <meta>: 
+<meta charset="UTF-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="John Doe">
+<meta http-equiv="refresh" content="30"> 30s 1 lần
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> initial zoom level
+
+<base href="https://www.w3schools.com/images/" target="_blank"> đường link cơ bản
+coi lai bài layout: SD float + clear or flex box
+
+reponsive <img src="" alt="" width="100%"> : 100% *********************
+<img src="" alt="" style="max-width:100%;height:auto;">
+<h1 style="font-size:10vw;">Responsive Text</h1>  1vw = 1%
+
+<!-- /*Use a media query to add a break point at 800px:*/ -->
+@media (max-width:800px) {
+  .left, .main, .right {
+    width:100%;/*The width is 100%, when the viewport is 800px or smaller*/ <=
+  }
+}
+
+coi thêm reponsive web
+<div float:left;
+  width:60%;></div>
+
+    box-sizing: border-box;
+cách ghi các dấu đặc biệt như < ,/
+
+<form action="/action_page.php" method="get">
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="submit" value="Submit">
+
+
+<form action="/action_page.php">  									autocomplete enctype target novalidate
+  <fieldset>
+    <legend>Personal information:</legend>  <!-- caption -->
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey"><br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+==========================combobox======================
+<select name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+
+
+<textarea name="message" rows="10" cols="30">
+<textarea name="message" style="width:200px; height:600px">
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+
+<form action="/action_page.php">
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+    <input type="reset">
+
+</form>
+
+
+  <input type="checkbox" name="vehicle2" value="Car"> I have a car 
+
+HTML5 added several new input types:
+
+				color
+				date
+				datetime-local
+				email
+				month
+				number					  <input type="number" name="quantity" min="1" max="5">
+				range
+				search
+				tel
+				time
+				url
+				week
+-	Max, min, step, size(lm cho text field rộng ra), value, disable, maxlength(số kí tự max), readonly, require(bắt buộc), disabled(k thể click), readonly
+
+Last name: <input type="text" name="lname" form="form1">
+  <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">: nút bấm
+<input type="file" name="img" multiple>:  upload
+k có dấu cách giữa dấu =
+
+tạo 1 thẻ mới =js
+
+ten cho 1 hinh anh
+<figure>
+  <img src="pic_mountain.jpg" alt="The Pulpit Rock" width="304" height="228">
+  <figcaption>Fig1. - The Pulpit Rock, Norway.</figcaption>
+</figure>
+
+<canvas></canvas>
+<svg></svg>:  vẽ
+gg map
+
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+
+youtube'
+<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+
+coi thêm event
+https://coggle.it/diagram/Wpvh5nKSrhX05sqh/t/the-frst
+=======================================================
+hinh ảnh phải chỉnh width height
+CTRL 0 về nguyên bản mới đo
+display block nó chỉnh line height dễ hơn, bot thuộc tính giãn dòng
+overflow: hidden khi rộng mà lớn hơn nó ẩn đi
+
+ - cách làm 1 link có hình mũi tên: 
+ {
+ 	display: block;
+ 	background-image:url("");
+ 	background-position: 300px top;
+	background-repeat: no-repeat;
+ }
+
+ lm khít ảnh width 100%
+ thẻ a hay thẻ inline nào mà muốn padding phải display:block ============
+thẻ <section></section> bọc lại có chiều rộng gấp đôi 2 cái hình alf khi float ok

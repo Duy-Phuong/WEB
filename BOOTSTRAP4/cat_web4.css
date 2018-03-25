@@ -1,0 +1,16 @@
+div.first {
+	background-image: url('images/4.jpg');
+	width: 200px;
+	background-color: red;
+	height: 61px;
+	padding-top: 216px;
+	background-repeat: repeat-y;
+}
+.first a{
+	display: block; /*khối*/
+	background-color: gray;
+	color: white;
+	text-decoration: none;
+	padding: 5px 32px;
+	opacity: 0.9;
+}

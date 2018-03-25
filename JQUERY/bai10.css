@@ -1,0 +1,123 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+body {
+    background-color:#ff00009e;
+}
+
+.tieude {
+    background-color:red;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.phan2cot {
+    width: 900px;
+    height: 300px;
+    margin: auto;
+    padding: 20px;
+	background-color: yellow;
+
+}
+
+
+.trai {
+	float: left;
+	margin-right: 10px;
+	width: 50%;
+	background-color: greenyellow
+	padding:10px;
+}
+
+.phai {
+	float: left;
+	
+	width: 45%;
+}
+
+.phai .nut{
+	padding:10px;
+	background-color:#3a8fda;
+	border: 1px solid orange;
+	border-radius:5px;
+	width: 100px;
+	cursor: pointer;
+}
+
+.nut:hover {
+	background-color: greenyellow;
+}
+
+.noidung {
+    background-color: greenyellow;
+    padding: 44px;
+    width: 40%;
+    position: fixed;
+    top: 15%;
+    left: 24%;
+    height: 26%;
+    z-index: 2;
+
+    opacity: 0;
+/* k có nó k chọn đk chữ vì nó vẫn nằm ở đó */
+	visibility: hidden;
+
+	transform: scale(0.4);
+	transition: 1s;
+}
+
+h3 {
+	padding: 10px;
+	text-align: center;
+}
+
+.nutdong {
+	padding:10px;
+	background-color: gray;
+	border: 1px solid black;
+	border-radius:5px;
+	width: 100px;
+	margin:  auto;
+	margin-top: 50px;
+	text-align: center;
+	cursor: pointer;
+
+
+}
+
+.momo {
+	background-color: #fab1a0;
+	position: fixed;
+	top: 0px;
+	left: px;
+	width: 100%;
+	height: 800px;
+	z-index: 1;
+/* hieu ung */
+	opacity: 0;
+
+	visibility: hidden;
+}
+
+
+.hienra {
+	visibility: visible;
+	opacity: 1;
+	transform: scale(1);
+
+}
+
+/* hu tư phải qua transform: translateX(200px) --> 0px
+transform: rotate(360deg) scale(0); -> 0deg 1
+transform-origin: 0% 100%;
+tâm quay trái 0% top 100 
+top-100% ->0%
+3D bố perspective bài 51
+cách khác viết bằng animation do mình tự làm
+theo chiều z
+xem thêm ...
+
+ */

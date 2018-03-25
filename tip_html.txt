@@ -1,0 +1,91 @@
+<html>:5 hoặc ! với HTML5 doctype
+<html>:xt giành cho XHTML
+<html>:4s giành cho HTML4 strict doctype
+
+<!-->chú thích</!-->
+https://hungit.net/huong-dan-viet-code-nhanh-tren-sublime-text-3.html
+
+Ví dụ, thay vì viết<p class="hcode"></p> ta chỉ cần viết p.hcode.
+
+Tương tự, chúng ta có thể thêm đồng thời class và ID nếu viết p.hung.#hcode thay vì phải viết đầy đủ <p class="hung" id="hcode"></p>
+
+Đối với nội dung và thuộc tính (attributes) cho các thành phần HTML, bạn sử dụng dấu ngoặc nhọn {} và dấu ngoặc vuông [] tương ứng. Ví dụ, viết h1{hcode} và ấn Tab sẽ hiển thị<h1>hcode</h1>, hay viết a[href=#] sẽ cho ra kết quả <a href="#"></a>
+
+<p CTRL SHIFT A> chọn nhanh trog khung
+<p CTRL P go to> 
+	<p Multi pointer, hide folder> ấn thêm ctrl
+> cho phép lồng ghép hai tags với nhau, nói cách khác. Ví dụ khi gõ p>span> ta sẽ được <p><span></span></p>.
++ cho phép đặt các thẻ ngang cấp với nhau
+h1+h2 ta được:
+<h1></h1>
+<h2></h2>
+^ cho phép đưa tag lên cấp cao hơn trong cấu trúc cây HTML.
+
+Bạn có thể nhóm các đoạn mã lại với nhau sử dụng dấu ngoặc đơn (). Ví dụ khi gõ,(.hcode>h1)+(.hung>h2) ta sẽ được:
+
+<div class="hcode">
+ 
+<h1></h1>
+ 
+</div>
+ 
+<!-- /.hcode -->
+ 
+<div class="hung">
+ 
+<h2></h2>
+ 
+</div>
+ 
+<!-- /.hung -->
+
+Bạn có thể xác định số lần một phần tử được đưa ra bằng cách sử dụng toán tử *. Ví dụ,ul>li*4 ta sẽ được:
+<ul>
+	<li></li>
+	<li></li>
+	<li></li>
+</ul>
+
+Khi khai báo tag cùng class, bạn viết div.item, Emmet sẽ tạo ra<div class="item"></div>. Nếu bạn quên không viết div mà chỉ viết mỗi .item, Emmet vẫn sinh ra code giống trên. Đó là tính năng rất thông minh của Emmet – tự động kiểm tra tag cha để mỗi khi bạn viết tắt Emmet sẽ tự động hoàn thành những gì bạn quên. Ví dụ, khi khai báo .item trong thẻ <ul> thì Emmet sẽ cho ra kết quả <li class="item"></li> chứ không phải là <div class="item"></div> như ở trên. Đây chính là cách viết tắt giúp chúng ta code nhanh hơn.
+
+Danh sách tên tag con mà Emmet hỗ trợ
+
+li cho ul và ol;
+tr cho table, tbody,thead và tfoot;
+td cho tr;
+option cho select và optgroup.
+
+http://free.zendvn.com/tu-van-chia-se-dinh-huong/su-dung-va-lam-chu-sublime-text-70-105.html
+
+ctrl shift lên xuống
+Chọn một từ: Ctrl + D – chọn nhanh chóng thay vì phải giữ Shift + ← (→) để chọn, đồng thời highlight toàn bộ chữ có cùng nội dung, nếu tiếp tục giữ Ctrl và nhấn thêm D thì sẽ chọn các từ cùng nội dung đó và cùng chỉnh sửa một lúc.
+Chọn một dòng: Ctrl + L – toàn bộ dòng sẽ được chọn ngay.
+Chọn toàn bộ trong brackets: Ctrl + Shift + M – nhanh chóng chọn toàn bộ trong brackets, rất hữu ích khi làm việc với CSS hoặc Javascript.
+Chọn và chỉnh sửa nhiều dòng một lúc: Ctrl + Click vào những nơi cần sửa – Tăng tốc độ chỉnh sửa và hạn chế sai sót tối đa.
+
+Ctrl + / hoặc Ctrl + Shift + / để comment code nhanh chóng.
+Alt + Shift + Number, trong đó Number chính là số màn hình muốn chia (từ 1 đến 4).
+
+<p NODE JS -----	https://www.youtube.com/watch?v=mdko0x0B8kQ&index=1&list=PLb9GOiDj30nSJLKeai7yWUtl7SD2cTTGn&t=14s ></p>
+<p CSS ----			https://sabe.io/classes/css HTML -----		https://sabe.io/classes/html  JS ------- 		https://sabe.io/classes/javascript?utm_content=bufferb441a&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer></p>
+
+http://online.khoapham.vn/
+
+zend.vn giabaoit
+
+http://vietjack.com/javascript/index.jsp
+
+18G web https://www.fshare.vn/file/OKIKZ22UTAN5
+
+https://www.tutorialspoint.com/java/index.htm
+
+javatpoint.com
+
+http://www.stepupdesign.net/2018/01/spring-mvc-for-beginners-build-java-web.html
+
+http://vdevpro.com/huong-dan-cai-dat-sublime-text-3-kich-hoat-key-ban-quyen-sublime-text/
+
+màu
+https://material.io/color/#!/?view.left=0&view.right=0
+https://color.adobe.com/explore/?filter=most-popular&time=month
+https://validator.w3.org/nu/#file

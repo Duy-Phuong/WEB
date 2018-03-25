@@ -1,0 +1,9 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: red;
+}

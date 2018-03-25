@@ -1,0 +1,82 @@
+html {
+  background: #333; /*mau xám*/
+}
+
+@font-face {
+   font-family: tron;
+/*    src: url(../font/Tr2n.woff);
+dafont.com
+ */
+  src: url('../font/cartoon_blocks_christmas/Cartoon Blocks Christmas SC.woff');
+}
+
+button {
+  width: 250px;
+  height: 70px;
+  position: absolute;
+  margin: auto; /*Căn ra giữa màn hình*/
+  left: 0;/*Căn ra giữa màn hình*/
+  right: 0;/*Căn ra giữa màn hình*/
+  top: 0;/*Căn ra giữa màn hình*/
+  bottom: 0;/*Căn ra giữa màn hình*/
+  font-size: 22px;  
+  font-family: tron;
+  
+  background: none; /*Không hiển thị background*/
+  border: 3px solid deepskyblue; /*Tham khảo HTML Color Names */
+  color: deepskyblue;
+  border-radius: 70px; /*Thiết lập border tròn cho button với bán kính 70px */
+  animation: resize 6s infinite;/*Thu nhỏ thành hình tròn*/
+
+  overflow: hidden; /*!!!!!!!!!!!!!Đừng gõ cái này vội mà chờ khi thay đổi line-height thấy cái chữ 
+  Download nó ko trôi 1 cách hợp lý thì mới đặt over-flow là hidden*/
+
+}
+
+/*Chèn content vào element trước khi xuất hiện*/
+button:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background: deepskyblue;
+  animation: load 6s infinite; /*Chuyển progressbar*/
+}
+
+/*Tạo mũi tên bằng hình chữ nhật sau khi xuất hiện button, sự kiện after khi button hình thành*/
+button:after {
+  content: '';
+  position: absolute;
+  width: 15px;   
+  height: 15px;
+  /*border: 3px solid;*/
+  border-bottom: 3px solid;  /* Cho border đáy */
+  border-right: 3px solid; /* Cho border phải */
+  transform: rotate(45deg); /*Xoay đi 45o sẽ được mũi tên chúc xuống dưới */
+  box-shadow: 3px 3px #333, 6px 6px deepskyblue;  /*Đặt 2 lớp shadow, 1 màu xám, 1 màu xanh*/
+  right: 25px;
+  top: 18px;
+  animation: bounce 6s infinite;
+}
+
+@keyframes resize {
+  0% , 20% {line-height: 64px; width: 250px;} /*Từ 0 cho 1.8s đầu thì kích thước không thay đổi*/
+  25%, 100% {line-height: 150px; border-color: deepskyblue;} /*Tăng kích thước của dòng lên để khiến cho chữ Download bị trôi xuống, Đổi màu border sang màu xám */
+  30%, 100% {width: 70px; border-color: #444;} /*thay đổi độ rộng của hình chữ nhật bằng độ cao, với border radius cũng có giá trị y hệt. Do vậy hình cuối cùng là hình tròn */
+}
+
+@keyframes load {
+  0% , 40% {height: 0;}
+  90%, 100% { height: 100%;} /*1.8s cuối sẽ cho chiều cao của progressbar dịch chuyển từ 0 - 100%*/
+}
+
+@keyframes bounce {
+  0% , 20% {right: 25px;top: 18px;}  /* Từ 20% thời gian đầu (1.2s đầu) ở vị trí góc phải */
+  30%, 40%, 50%, 60%,70%,80% {top: 14px;}  /* Giây thứ %30 - 85%, cho nút mũi tên nó nhấp nhô lên xuống bằng cách hiệu chỉnh thuộc tính top */
+  35%, 45%, 55%, 65%,75%,85% {top: 22px;} /* Khi hướng dẫn ta sẽ hướng dẫn thay đổi dòng lần lượt 30%, 35%, ... */
+  54% {color: deepskyblue;box-shadow: 3px 3px #333, 6px 6px deepskyblue;}  /*deepskyblue là màu xanh lá cây, tăng kích thước của bóng thứ 2 lên gấp đôi */
+  55% , 85% {color: #333;box-shadow: 3px 3px deepskyblue, 6px 6px #333;border-width: 3px;height: 15px;} /*Ở giây thứ %55, đổi màu toàn bộ arrow sang màu xám, giữ nguyên border và độ cao*/
+  90%, 100% {box-shadow: 1px 1px #333;border-width: 5px;height: 25px;color: #fff;} /*Thu nhỏ boxshdow về 1px; kích thước border tăng lên 5px, độ cao tăng dần lên mức 25px và đổi thành màu trắng*/
+}

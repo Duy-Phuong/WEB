@@ -1,0 +1,66 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.bo {
+	width: 100%;
+	height: 1000px;
+	position: relative;
+}
+
+img {
+	width: 100%;
+	height: 1000px;
+}
+
+.bo .layer1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1; /**/
+
+	/* Hiệu ứng */
+	transition: 2s;
+/*tiến về phía trk*/
+ animation: zoomlen 10s forwards;
+}
+
+.bo .layer2 {
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	z-index: 2; /**/
+
+	font-family: 'Karma', serif;
+	text-align: center;
+	width: 700px;
+	height: 300px;
+	color: white;
+
+margin-left: -300px;
+
+/* khúc này lm với chữ sau khi thay zoomlen */
+opacity: 0;
+animation: divao 3s forwards;
+animation-delay: 2s;
+}
+h3 {
+	font-size: 40px;
+
+}
+/* 
+.bo:hover .layer1 {
+	
+	transform: scale(1.5); 
+} */
+
+/* cách khác */
+ @-webkit-keyframes zoomlen {
+ 	from {transform: scale(1);}
+ 	to {transform: scale(2);}
+ }
+
+ @-webkit-keyframes divao {
+ 	from {opacity: 0; top: 30%;}
+ 	to {opacity: 1; top: 40%;}
+ }

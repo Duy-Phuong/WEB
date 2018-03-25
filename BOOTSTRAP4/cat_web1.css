@@ -1,0 +1,55 @@
+div.first img{
+	float: right;
+	margin-right: 15px;
+	margin-left: 37px;
+	clear: both;
+}
+div.first {
+	clear: both;
+	padding-top: 20px;
+}
+
+div{
+	margin: 10px;
+}
+section{
+	width: 500px;
+	height: 200px;
+}
+a{
+	text-decoration: none;
+
+}
+a:hover{
+	color: orange;
+}
+
+article.sub{
+	width: 230px;
+	float: left;
+	margin: 10px;
+}
+/** tiêu đè*/
+article#arr img{
+	/* width: 500px; */
+	width: 100%;
+}
+
+article#arr p, a{
+	padding: 15px;
+}
+
+
+article#arr{
+	/* overflow: hidden; */
+	float: left;
+	background-color: yellow;
+	border: 1px solid orange;
+
+}
+
+section{
+	width: 500px;
+	height: 200px;
+
+}

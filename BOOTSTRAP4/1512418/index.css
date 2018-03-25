@@ -1,0 +1,109 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: 'Lora', serif;
+}
+
+.top {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.gray {
+	background-color: #dbdbdb;
+}
+
+.nhat {
+	background-color: #f4f4f4;
+	color: black;
+	height: 946px;
+}
+
+.picture {
+	width: 100%;
+	border-radius: 50%;
+	border: 2px solid gray;
+	
+}
+
+.hinhbenphai {
+float:right;
+
+}
+
+.thongtin {
+	border-radius: 5px;
+	border: 1px solid brown;
+	color: brown;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	padding-top: 8px; 
+}
+
+
+.foot {
+	background-color: gray;
+	color: white;
+}
+
+.phiaduoi {
+	border-top:  1px solid #00000030;
+	padding: 20px 40px;
+	background-color: #00000024;
+}
+
+
+.form-group {
+    margin-right: 15px !important;
+    margin-bottom: 25px !important;
+}
+
+
+.canphai {
+	float: right  ;
+	margin-right: 22px;
+}
+
+/* radio */
+.canphai1 {
+	float: right  ;
+	margin-right: 36px;
+	margin-top: 20px;
+}
+
+.canphai2 {
+	float: right  ;
+	margin-right: 16px;
+}
+span.indam {
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.rong {
+	width: 186px !important;
+}
+
+.panel-success>.panel-heading {
+    color: white;
+    background-color: #4cd137;
+    border-color: #d6e9c6;
+}
+
+.btn-success.active, .btn-success:active, .open>.dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: #4cd137;
+    border-color: #4cd137;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #9e9e9e66;
+    border-color: #ccc;
+}
+
+.khongdaytrai {
+	padding: 0px;
+}

@@ -1,0 +1,145 @@
+
+
+
+khi ấn html:5 Tab
+gõ nhanh tên id: .id tab, #id tab, h1.id tab
+p>img*4
+#ib.class
+p>img+a
+thẻ link: link tab: <link rel="stylesheet" href="">
+<div class="col-xs- col-sm- col-md- col-lg-">
+<div class="col-xs- col-sm- col-md- col-lg-">ẤN bs3-col tab
+	bs3-navbar tab
+CTRL U: view source
+f12
+*{}
+<!-- chú thích ctrl / -->
+HTML-CSS-JS Prettify strl shift h format code
+SideBarEnhancements
+pr				gt	
+ctrl shift p mở package control
+<!--============================================================-->
+<div class="luu y"></div>
+để hiển thị ND xuonsg dòng thường SD ddissplay block : Bai2: BS4
+tên class k dk bắt dầu bằng số
+<div class="col" style="background-color:lavender;"><img src="2.jpg" alt="" class="img-responsive"></div> 
+    <!-- y nhu width 100% -->
+class="img-responsive" =  width=100%
+    col-lg-push-3 đẩy sang phải 3
+    bs3-thumbnail:content tab nhanh hơn khi tạo hình
+    ctrl SHIFT D nhân nhanh
+    bs3-list-group tab
+    bs3-carousel 
+    khi chia phần coi như từng row r chia col
+    glyphicon fa.fa-twitter cần có link trk <b class="fa fa-github"></b>
+    f12 từ bs4 => css chỉnh lại
+    copy SD gg font
+    lato font	bài 21
+    col-md-push-4 : đẩy ra khi cần rộng bên phải mà k cần chèn gì
+    jquery viết hu trượt
+    narbar-fixed-top ở đứng trên luôn 
+
+    <-----------------------------------------------sss-------------------------------->
+
+
+-	phần link có nav bar HTML5
+-	2 class thì ghi "class_A class_B", trong css khi gọi class có dấu chấm ở trk .class{}
+-	trong thẻ li có a thì ghi li a {} trong css
+-	iframe để hiển thị 1 trang web trong 1 trang web khác
+-	thẻ picture in HTML5 có khả năng tùy chỉnh image tùy thuộc vào width
+-	onclick="document.getElementById('demo').innerHTML = Date()"
+-	  <link rel="stylesheet" href="styles.css">: 	cách link vs file .css
+-	thẻ meta, base trong head
+-	các thẻ trong HTML5:
+<header> - Defines a header for a document or a section
+<nav> - Defines a container for navigation links
+<section> - Defines a section in a document
+<article> - Defines an independent self-contained article
+<aside> - Defines content aside from the content (like a sidebar)
+<footer> - Defines a footer for a document or a section
+<details> - Defines additional details
+<summary> - Defines a heading for the <details> element
+xem bài layout, reponsive kĩ
+-	reponsive image chỉ cần cho nó có width = 100%, max-width= 100%; style="font-size:10vw"nghĩa là 10% 
+-	box-sizing: 2 loại, overflow
+-	display:block trong các thẻ html5 mới, cách tạo 1 thẻ mới 
+-	HTML5 Migration: có nhiều mẫu trang web mới
+-	load JS: <script src="myscript.js">
+-	k có dấu cách giữa dấu =
+
+
+*******************************CSS3 ************************************
+-	cmt /**/
+-	2 class là "a b", khi truy cập là p.a{}  		p.b{tt: value;}
+-	id là #id{}
+-	<link rel="stylesheet" type="text/css" href="mystyle.css">  external
+
+-	border-style có thể ghi theo kiểu : viết gọn là T R B L,...
+-	border-left: 6px solid red;		  border-right-style: solid;
+-	margin nó sẽ cộng margin trên và dưới lại là ra khoảng cách
+-	padding sẽ cộng thêm vs width
+-	 box-sizing: border-box; k cho cộng thêm vs width
+-	box bt sẽ cộng hết lại
+-	outline bao bọc border cx như border
+-	outline-offset là khoảng trắng giữa border vào outline, k có màu
+-	có thể thay đổi con trỏ khi rê vào link vd như hình bàn tay, link như 1 cái button có padding và display inline-block
+-	cách tạo icon bằng css, bstrap, gg
+đưa về mặc định:
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+-	tạo table có con viền xq li ta có thể cho pt cuối k có viền dưới ul li:last-child {
+
+-	reponsive table
+-	display: block(k cho phé có thẻ block nào ở trong) như thẻ p hay inline như thẻ span mặc định là none là k hiển thị
+-	display : none (block khi nuốn hiện lại)là k chiếm k gian, visibility:hidden; (có thể là visible nếu muốn nó hiện ra) ngược lại
+-	click dô thẻ p show ra
+-	1 thẻ có thể vừa có id và class
+-	max-width vs margin: auto để resize
+ position: relative; theo viền cũ của nó vùng hiển thị 
+    top: 40px;
+    left: 50px;
+-	position: fixed  là cửa sổ của trình duyệt.
+-	Vùng không gian: là vùng chiếm chọn không gian theo chiều ngang,
+ có giá trị vô hạn tùy thuộc vào chiều rộng của trang HTML.
+-	Vùng hiển thị: có độ rộng tùy thuộc vào chiều rộng của thành phần, 
+có giá trị hữu hạn, nó là một bộ phận của vùng không gian.
+-	http://hocwebchuan.com/tutorial/tut_css_position.php
+-	Thuộc tính clear: left; ngăn chặn thành phần B chiếm chỗ thành phần A, khi thành phần A có sử dụng float: left;.
+Thuộc tính clear: left; không có tác dụng khi thành phần A sử dụng float: right;.
+-	cho hinh vào trong thẻ div khi hình tràn ra ngoài  overflow: auto;
+-	
+-	trong bài flloat có 1 mẫu web width: 25%; 1 cái 75 float left => https://www.w3schools.com/css/tryit.asp?filename=trycss_layout_cols
+-	https://www.w3schools.com/css/tryit.asp?filename=trycss_layout_webpage: có menu ở trên
+-	coi lại bài float
+-	topmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; ======
+    background-color: #777;
+}
+.topmenu li {
+    float: left;
+}
+.topmenu li a {
+    display: inline-block; ======
+
+==========khúc trên khi lm menu phải có--------------
+-	display: inline-block;
+-	img phải có như z ms margin dk display: block;
+-	căn dọc trong chữ
+-	div p : tất cả thẻ p trong div
+-	div > p con trực tiếp
+-	input[type=text]:enabled => đối vs thẻ input lớp giả 
+-	
+-	a[target] cái nào có attr thì vàng		a[target="_blank"]
+-	[title~="flower"] cái nào có attr có chứa flower
+-	[class|="top"]	bắt đầu bằng chữ top-
+-	[class^="top"]	bắt đầu bằng chữ top
+-	[class$="test"]	end with
+-	[class*="te"] 	có chứa
+-	
+

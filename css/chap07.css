@@ -1,0 +1,119 @@
+body{
+	font-family: Arial, "Time New Roman", serif;
+	font-size: 16px;
+	background: #a7ffeb;
+
+}
+ol, ul{
+	list-style-type: none;
+}
+header{
+	background-color: white;
+}
+#wrap{
+	background: white;
+	border: 1px solid black;
+	/*margin: 0px auto;/*đẩy vào giữa*/
+ 	margin-left: 200px;
+	margin-right: 200px; 
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#innerwrap{
+	background-image: url(../images/inner-wrap_bg.png);
+	background-repeat: repeat-x;/*lap theo chieu x*/
+}
+/* <!-- important		******		tránh TH bị đè lên ******* -->
+<!-- 				<div style = "clear: both"></div>-->
+để after liền k có dấu space */
+#innerwrap:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+nav{
+	background-color: #18ffff;
+	height: 35px;
+
+}
+nav li{
+	float: left;
+	border-left: 1px black solid;
+	border-right: 1px black solid;
+	line-height: 35px;/*nằm giữa theo chiều dọc*/
+	text-align: center;
+	background-color: #00b8d4;
+	width: 150px;
+	height: 35px;
+
+}
+nav a{
+	text-decoration: none;/*bỏ trang trí*/
+	color: white;
+}
+
+nav a:hover{
+	color: green;
+}
+
+table, td, th { border: 1px solid gray }
+
+aside{
+float: left;
+width: 300px;
+}
+
+article{
+float: right;
+width: 600px;
+background-color: #b2dfdb;
+}
+/* bạn có thể chèn hình bằng css */
+footer{
+background-image: url(../images/footer_background.jpg);
+height: 118px;
+width: 930px;
+background-repeat: no-repeat;
+padding-top: 10px;
+}
+
+aside p, aside h1, aside h2, aside h3, article p, article h1{
+margin-left: 20px;
+margin-right: 20px;
+}
+
+p, li{
+	font-size: 0.875em;
+	line-height: 1.75em;
+}
+h1{
+	font-size: 1.5em;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+h2{
+	font-size: 1.125em;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+#table1{
+	margin: 10px 20px;
+}
+
+footer p{
+	margin: 10px 0 0 20px;
+	width: 280px;
+	font-size: 0.875em;
+}
+
+#slogan{
+	position: absolute;
+	top: 45px;
+	height: 100px;
+	left:  500px;
+}

@@ -1,0 +1,172 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+header {
+	width: 100%;
+	height: 670px;
+	position: relative;
+}
+
+.anhslide {
+	position: relative;
+	width: 100%;
+	height: 670px;
+	overflow: hidden;
+}
+
+.anhslide img {
+	width: 100%;
+	height: 670px;
+}
+
+.nutslide img{
+	width: 80px;
+	height: 80px;
+}
+
+.next img {
+	transform: rotate(180deg);
+}
+
+._1slide {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+	/* hiệu ứng */
+	opacity: 0;
+	visibility: hidden;
+}
+
+.prev {
+	position: absolute;
+	top: 50%;
+	left: 50px;
+	z-index: 4;
+	cursor: pointer;
+}
+
+.next {
+	position: absolute;
+	top: 50%;
+	right: 50px;
+	z-index: 4;
+	cursor: pointer;
+}
+
+
+.nutslide li {
+	list-style-type: none;
+	float: left;
+	background-color: gray;
+	border-radius: 50%;
+	padding: 4px 8px;
+	cursor: pointer;
+	margin: 5px;
+	color: gray;
+
+	transition: 0.6s;
+}
+
+.nutslide ul{
+	width: 200px;
+	margin:  auto;
+	position: absolute;
+	bottom: 0%;
+	left: 50%;
+}
+
+.nutslide ul li:hover {
+	
+	background-color: black;
+	
+	color: black;
+}
+
+
+.nutslide {
+	background-color: red;
+	z-index: 5;
+}
+
+/* hiệu ứng */
+.active {
+	opacity: 1;
+	visibility: visible;
+}
+
+.bienmattrai {
+	animation: bienmattrai1 1s forwards;
+
+}
+
+@-webkit-keyframes bienmattrai1 {
+	0% {opacity: 1; 
+		visibility: visible;
+		/* transform: translateX(0%);cách 2 */
+		left:0%;}
+	100% {opacity: 0; 
+		visibility: hidden;
+		/* transform: translateX(100%); */
+		left:-100%;}
+}
+
+
+.divaophai {
+	animation: divaophai1 1s forwards;
+
+}
+
+@-webkit-keyframes divaophai1 {
+	
+	0% {opacity: 0; 
+		left:100%;
+		visibility: hidden;
+	}
+	100% {opacity: 1; 
+		left:0%;
+		visibility: visible;}
+}
+
+
+.bienmatphai {
+	animation: bienmatphai1 1s forwards;
+
+}
+
+@-webkit-keyframes bienmatphai1 {
+	0% {opacity: 1; 
+		visibility: visible;
+		/* transform: translateX(0%);cách 2 */
+		left: 0%;}
+	100% {opacity: 0; 
+		visibility: hidden;
+		/* transform: translateX(100%); */
+		left: 100%;}
+}
+
+
+.divaotrai {
+	animation: divaotrai1 1s forwards;
+
+}
+
+@-webkit-keyframes divaotrai1 {
+	
+	0% {opacity: 0; 
+		left: -100%;
+		visibility: hidden;
+	}
+	100% {opacity: 1; 
+		left: 0%;
+		visibility: visible;}
+}
+
+li.xanh {
+	background-color: white;
+	color: white;
+	border: 1px solid powderblue;
+}
+

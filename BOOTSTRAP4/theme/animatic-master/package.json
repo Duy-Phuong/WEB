@@ -1,0 +1,26 @@
+{
+  "name": "animatic",
+  "version": "1.0.1",
+  "description": "CSS/JS Animations Library with Physics support",
+  "main": "animatic.js",
+  "keywords": [
+    "animation",
+    "animations",
+    "transition",
+    "transitions",
+    "css",
+    "javascript",
+    "physics"
+  ],
+  "scripts": {
+    "prepublish": "make -B"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lvivski/animatic.git"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.4.19"
+  },
+  "license": "MIT"
+}

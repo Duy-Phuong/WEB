@@ -1,0 +1,31 @@
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.bg-dark {
+    background-color: transparent !important;
+}
+
+div.banner .chuamenu {
+	position: fixed;
+	top: 0px;
+	z-index: 100;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: tomato;
+ /*    padding: 100px; */
+}
+
+.navbar-dark .navbar-toggler {
+    color: #03A9F4;
+    border-color: #FF5722;
+}
+
+.carousel-indicators li {
+	border-radius: 50%;
+	width:  16px;
+	height: 16px;
+}

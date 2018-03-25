@@ -1,0 +1,40 @@
+div.tieude h2{
+	background-color: yellow;
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	left: 100px;
+	margin-bottom: -10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+div.tieude {
+	
+	border-bottom: 2px solid red;
+}
+
+div.first{
+	float: left;
+	width: 200px;
+	background-color: powderblue;
+	margin-top: 50px;
+	margin-right: 10px;
+}
+div.first:nth-child(3n){
+	float: left;
+	width: 200px;
+	background-color: yellow;
+	margin-top: 50px;
+}
+div.first img {
+	float: left;
+	width: 100%;
+}
+section{
+	width: 630px;
+
+}
+
+.second{
+
+}

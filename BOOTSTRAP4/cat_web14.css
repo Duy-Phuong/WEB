@@ -1,0 +1,68 @@
+* {
+	padding: 0px;
+	margin:  0px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+
+a.khoianh {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	display: block;
+	background-color: powderblue;
+
+	overflow: hidden;
+
+	border-radius: 5px;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+body {
+	background-color: violet;
+}
+
+a.khoianh img {
+	width: 100%;
+
+}
+
+.tieude {
+	display: block;
+	padding: 10px;
+}
+
+.tacgia {
+	color: gray;
+	display: block;
+	padding-left: 10px;
+}
+
+.layer2 {
+	width: 270px;
+	height: 20px;
+	background-color: gray;
+	display: block;
+	padding: 15px;
+	border-radius: 5px;
+/* margin no phụ thuộc vào chữ nên nó bị đẩy tràn ra */
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+.layer2 .gia {
+	float: right;
+}
+
+.noidung {
+	width: 915px;
+	margin:  auto;
+}

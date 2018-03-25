@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>float css </title>
+	<style>
+	.relative{
+		position: relative;
+		/*neu tat ralative no se vang ra ngoai*/
+		width: 500px;
+		height: 500px;
+		margin: 100px auto;
+		background: blue;
+	}
+	.absolute{
+		position: absolute;
+		width: 100px;
+		height: 100px;
+	}
+		.red{
+			background: red;
+			left: 100px;
+			top: 200px;
+		}
+		.yellow{
+			background: yellow;
+			top: 100px;
+			left: 200px;
+		}
+		.orange{
+			background: orange;
+			right: 50px;
+			top: 300px;
+		}
+	</style>
+<!-- 	vao jsfiddle.net để test
+		thêm float: left; vào để KT
+ -->
+</head>
+<body>
+	<div class = "relative">
+		<div class = "absolute red">left</div>
+		<div class = "absolute yellow">right</div>
+		<div class = "absolute orange">center</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+* {
+	padding: 0px;
+	margin:  0px;
+}
+.so1 {
+	position: relative;
+	width: 1400px;
+	height: 1000px;
+	display: block;
+	background-image: url('images/la.jpg');
+/*anh vừa khít*/
+	background-size: cover;
+	background-attachment: fixed;
+/* 	background-position: -100px;
+ cô gái dịch qua*/
+
+
+
+}
+.nd1, .nd2, .nd3 {
+	width: 800px;
+	margin:  auto;
+	text-align:  right;
+	font-size: 30px;
+	position: absolute;
+	top: 200px;
+	left: 5px;
+}
+.chunho {
+font-size: 15px;
+}
+
+a {
+	text-decoration: none;
+	/* noi dung chi bao quanh chu chu k dai */
+
+	display: inline-block;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+a:hover {
+	color: black;
+	background-color: white;
+	
+	border: 2px solid powderblue;
+	
+}
+
+/* so 2 */
+.so2 {
+	background-image: url('images/la2.jpg');
+}
+
+.so3 {
+	background-image: url('images/la3.jpg');
+}

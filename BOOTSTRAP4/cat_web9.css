@@ -1,0 +1,80 @@
+* {
+	padding: 0px;
+	margin:  0px;
+}
+
+a.khoi1 {
+	display: block; /* the a */
+	width: 400px;
+	height: 300px;
+	/* background-color: yellow; */
+	background-image: url('images/2.jpg');
+	text-decoration: none;
+	background-position: center;
+
+	/*cÄƒn giá»¯a 2 layer*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/**/
+	transition: 1s;
+
+}
+a.khoi1 span.noidung1 b {
+	display: inline-block;
+	width: 149px;
+	height: 63px;
+	background-color: powderblue;
+	color: white;
+	padding: 0px 20px;
+	padding-top: 38px;
+	padding-bottom: -23px;
+}
+
+a.khoi1 span.noidung1 img {
+	
+	width: 30%;
+	height: 100px;
+	background-color: black;
+	float: left;
+}
+
+.noidung1 {
+	width:  70%;
+	height: 40%;
+}
+
+a.khoi1:hover {
+	opacity: 0.7;
+}
+
+
+/* ben phai */
+div.phai .k2 {
+height: 140px;
+margin-bottom: 20px; /*gian doc*/
+}
+/* thay hinh */
+div.phai .k21 span.noidung1 img{
+height: 50px;
+}
+
+div.phai .k22 span.noidung1 img{
+height: 50px;
+}
+
+div.phai .k2 span.noidung1 b{
+height: 50px;
+padding: 0px;
+
+}
+
+/*chia lm 2 phần */
+.to {
+	display: flex;
+	width: 823px;
+	height: 300px;
+	background-color: #009688;
+	justify-content: space-between;
+}

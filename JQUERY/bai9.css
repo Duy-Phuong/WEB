@@ -1,0 +1,40 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.vd1 {
+	background-color: brown;
+	width: 100%;
+	height: 15px;
+
+	animation: daira 4s forwards;
+}
+
+@-webkit-keyframes daira {
+	0%{ height: 15px; }
+	100%{height: 100px;}
+}
+
+.nut {
+	margin-left: 40%;
+	padding:  20px 30px;
+	border-radius: 5px;
+	border:  1px solid orange;
+
+	cursor: pointer;
+	animation: duoilen 4s forwards;
+	animation-delay: 1s;
+	 opacity: 0; 
+}
+
+@-webkit-keyframes duoilen {
+	0%{
+		 opacity: 0; transform: translateY(300px); }
+	100%{opacity: 1; transform: translateY(0px);}
+}
+
+/* co gái đi từ dưới lên
+overflow hidden
+có thêm bottom-800px
+bài 40 */

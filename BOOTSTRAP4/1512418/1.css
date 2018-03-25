@@ -1,0 +1,13 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.menu {
+  height: 800px ;
+  background-color: green;
+  }
+
+  .sub {
+    height: 800px;
+    background-color: yellow;
+  }
